@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#071327">
+  <meta name="description" content="Enter Crownfall Kingdoms , build your kingdom, forge alliances, and write your own story.">
+  <title>Crownfall Kingdoms | Claim Your Crown</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="Crownfall Kingdoms home">
+      <img src="assets/crownfall-logo.png" alt="Crownfall Kingdoms logo">
+      <span>CROWNFALL <b>KINGDOMS</b></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a><a href="#features">Features</a><a href="#kingdoms">Kingdoms</a><a href="#bot">Bot</a><a href="#join">Join Us</a>
+      <a class="nav-cta" href="https://discord.gg/xTuqWuqFPv" target="_blank" rel="noopener">Join Discord ↗</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span></span> YOUR STORY. YOUR KINGDOM.</div>
+        <h1>CLAIM YOUR<br><em>CROWN.</em></h1>
+        <p class="hero-lead">A Minecraft server built around kingdoms, alliances, trade, and strategy.</p>
+        <p class="hero-text">Build your kingdom, stand with your allies, and help shape the future of Crownfall Kingdoms. Your choices can change the balance of power.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="https://discord.gg/xTuqWuqFPv" target="_blank" rel="noopener">Enter the Discord <span>↗</span></a>
+          <a class="button button-quiet" href="#about">Explore the server <span>↓</span></a>
+        </div>
+        <div class="hero-note"><span class="status-dot"></span> A kingdom is only as strong as its people.</div>
+      </div>
+      <div class="hero-art">
+        <div class="art-frame"></div>
+        <img src="assets/crownfall-logo.png" alt="Crownfall Kingdoms , crown and castle emblem" class="hero-logo">
+        <div class="art-caption"><span>EST. BY ITS PEOPLE</span><span>THE SERVER AWAITS</span></div>
+      </div>
+      <div class="scroll-cue"><span></span> SCROLL TO EXPLORE</div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-mark">I / ABOUT THE SERVER</div>
+      <div class="intro-grid">
+        <h2>MORE THAN A<br><em>KINGDOM.</em></h2>
+        <div class="intro-copy">
+          <p class="large-copy">Crownfall Kingdoms is a Minecraft Java and Bedrock server where every decision can change the balance of power.</p>
+          <p>Create or join a kingdom, gather resources, build your capital, trade with other players, form alliances, and take part in official wars and events. Coins are used for trading, Kingdom Power decides the season champion, and reputation reflects how reliably a kingdom keeps its agreements.</p>
+          <p class="small-note">This is a starter description , replace it with your official lore and gameplay details whenever you're ready.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="features section" id="features">
+      <div class="section-heading">
+        <div><div class="section-mark">II / YOUR PATH</div><h2>POWER IS <em>BUILT.</em></h2></div>
+        <p>Every kingdom has a story.<br>What will yours become?</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">♜</div><div class="card-number">01 / BUILD</div><h3>Forge a Kingdom</h3><p>Bring people together, grow your influence, and build a kingdom worth remembering.</p><div class="card-line"></div></article>
+        <article class="feature-card featured"><div class="feature-icon">⚔</div><div class="card-number">02 / COMPETE</div><h3>Allies & Rivals</h3><p>Make agreements, negotiate trades, and decide who stands beside you , or against you.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">♛</div><div class="card-number">03 / LEAD</div><h3>Lead Your Kingdom</h3><p>Lead with strategy, build your reputation, and leave a legacy that lasts.</p><div class="card-line"></div></article>
+      </div>
+    </section>
+
+    <section class="kingdoms section" id="kingdoms">
+      <div class="section-heading">
+        <div><div class="section-mark">III / KINGDOM DIRECTORY</div><h2>EVERY KINGDOM HAS<br><em>A STORY.</em></h2></div>
+        <p>Meet the kingdoms playing on the Crownfall Minecraft server. Kingdom leaders and banners can be added below.</p>
+      </div>
+      <div class="kingdom-grid">
+        <article class="kingdom-card">
+          <div class="kingdom-banner"><img src="assets/crownfall-logo.png" alt="Queens kingdom banner"></div>
+          <div class="kingdom-info"><span class="kingdom-status">KINGDOM 01</span><h3>Queens</h3><p>Kingdom information and its leader will be listed here.</p><span class="kingdom-leader">Leader: To be announced</span></div>
+        </article>
+        <article class="kingdom-card kingdom-card-empty">
+          <div class="kingdom-banner"><span class="placeholder-crown">♛</span></div>
+          <div class="kingdom-info"><span class="kingdom-status">OPEN SLOT</span><h3>Your Kingdom</h3><p>Create your own kingdom and get it listed here.</p><span class="kingdom-leader">Apply through Discord</span></div>
+        </article>
+      </div>
+      <p class="kingdom-hint">To add more kingdoms, copy a kingdom card in index.html and update its name, banner, description, and leader.</p>
+    </section>
+
+    <section class="bot section" id="bot">
+      <div class="section-heading">
+        <div><div class="section-mark">IV / CROWNFALL BOT</div><h2>YOUR KINGDOM<br><em>TOOLS.</em></h2></div>
+        <p>Useful commands help keep kingdom life organised.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon">♛</div><div class="card-number">01 / CREATE</div><h3>/create_team</h3><p>Start an application for your own kingdom. Follow the prompts and provide the requested kingdom information for staff review.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">♟</div><div class="card-number">02 / MEMBERS</div><h3>Manage your roster</h3><p>Kingdom leaders can manage members and leadership roles. Use the available member commands to keep your roster up to date.</p><div class="card-line"></div></article>
+        <article class="feature-card"><div class="feature-icon">⚖</div><div class="card-number">03 / ECONOMY</div><h3>Trade and diplomacy</h3><p>The bot also supports kingdom information, economy statistics, trade agreements, reports, and official diplomacy workflows.</p><div class="card-line"></div></article>
+      </div>
+      <p class="kingdom-hint">Available commands may depend on your Discord permissions. Check the bot command list in Discord for the current options.</p>
+    </section>
+
+    <section class="join section" id="join">
+      <div class="join-panel">
+        <div class="join-glow"></div>
+        <div class="section-mark">V / JOIN THE COMMUNITY</div>
+        <h2>BUILD YOUR<br><em>OWN KINGDOM.</em></h2>
+        <p>Want to lead your own kingdom? Join the Discord server and use the /create_team command with the Crownfall bot. Enter your kingdom details and follow the application steps. Staff will review the request before the kingdom becomes official.</p>
+        <a class="button button-gold button-large" href="https://discord.gg/xTuqWuqFPv" target="_blank" rel="noopener">Join the Discord Server <span>↗</span></a>
+        <div class="join-foot">YOUR KINGDOM. YOUR STORY. YOUR CROWNFALL.</div>
+      </div>
+    </section>
+  </main>
+
+  <footer><a class="footer-brand" href="#home">CROWNFALL <b>KINGDOMS</b></a><span>Built by players. Remembered by kingdoms.</span><a href="#home">BACK TO TOP ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
